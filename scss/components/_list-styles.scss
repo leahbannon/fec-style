@@ -87,3 +87,11 @@
     width: 1.5rem;
    }
 }
+
+// Columns list
+//
+// Flows list items into three columns
+
+.list--columns {
+  @include columns(3);
+}
