@@ -35,33 +35,53 @@
   font-size: 1.4rem;
   background-color: rgba($ivory, .3);
   border-color: $ivory;
-  padding: .5rem 2rem;
+  padding: .5rem;
+
+  .totals-table__cell {
+    text-align: right;
+
+    &:first-child {
+      text-align: right;
+    }
+  }
 
   .totals-table__cell,
   .totals-table__cell:first-child {
-    width: 100%;
-    padding-top: .5rem;
+    float: left;
+    padding: .5em 1em;
+    width: 50%;
+
+    &.totals-table__cell--bar {
+      width: 100%;
+    }
   }
 
   .totals-table__cell:first-child {
     font-weight: normal;
+    text-align: left;
   }  
 }
 
 @include media($med) {
+  .totals-table__row--nested {
+    padding: .5rem 2rem;
+  }
+  
   .totals-table__row,
   .totals-table__row--nested {
     .totals-table__cell {
-      float: left;
       width: 20%;
-      padding: .5em 0;
+      float: left;
+      padding: .5em 1em;
+      text-align: right;
 
       &:first-child {
         width: 40%;
-        padding: .5em 0;
+        padding: .5em 1em;
+        text-align: left;
       }
 
-      &:last-of-type {
+      &.totals-table__cell--bar {
         width: 40%;
       }
     }

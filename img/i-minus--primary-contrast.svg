@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="15px" height="3px" viewBox="0 0 15 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>i-minus--primary-contrast</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Simple-Copy" sketch:type="MSArtboardGroup" transform="translate(-370.000000, -676.000000)" fill="#36BDBB">
+            <g id="i-minus--primary-contrast" sketch:type="MSLayerGroup" transform="translate(370.000000, 676.000000)">
+                <path d="M13.145574,2.676923 L1.359887,2.676923 C0.608776,2.676923 0,2.077738 0,1.338462 C0,0.599185 0.608776,0 1.359887,0 L13.145574,0 C13.896685,0 14.505461,0.599185 14.505461,1.338462 C14.505461,2.077738 13.896685,2.676923 13.145574,2.676923 L13.145574,2.676923 L13.145574,2.676923 Z" id="i-minus--primary" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

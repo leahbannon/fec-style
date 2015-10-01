@@ -89,6 +89,7 @@
 }
 
 .panel__subtitle {
+  display: block;
   font-family: $sans-serif;
 }
 
@@ -104,6 +105,10 @@
 .panel__term {
   font-weight: bold;
   vertical-align: top;
+}
+
+.panel__data {
+  text-align: right;
 }
 
 // Panel Navigation

@@ -31,37 +31,38 @@
 }
 
 .accordion--collapsed {
+
   .accordion__button {
-     &.button {
-       @include u-background-image('i-plus--neutral');
-     }
+    @include u-background-image('i-plus--neutral');
+  }
 
-     &.button--primary {
-       @include u-background-image('i-plus--primary');
-     }
+  .accordion__button--primary {
+    @include u-background-image('i-plus--primary');
+  }
 
-    &.button--secondary {
-      @include u-background-image('i-plus--secondary');
-    }   
+  .accordion__button--secondary {
+    @include u-background-image('i-plus--secondary');
+  }
+
+  .accordion__button--primary-contrast {
+    @include u-background-image('i-plus--primary-contrast');
   }
 }
 
 .accordion__button {
-  &.button {
-    @include u-background-image('i-minus--neutral');
-    border-radius: 3rem;
-    height: 3rem;
-    padding: 0;
-    width: 3rem;
-  }
+  @include u-background-image('i-minus--neutral');
+}
 
-  &.button--primary {
-    @include u-background-image('i-minus--primary');
-  }
+.accordion__button--primary {
+  @include u-background-image('i-minus--primary');
+}
 
-  &.button--secondary {
-    @include u-background-image('i-minus--secondary');
-  }
+.accordion__button--secondary {
+  @include u-background-image('i-minus--secondary');
+}
+
+.accordion__button--primary-contrast {
+  @include u-background-image('i-minus--primary-contrast');
 }
 
 .accordion--secondary {
