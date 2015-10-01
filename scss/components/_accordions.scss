@@ -47,6 +47,10 @@
   .accordion__button--primary-contrast {
     @include u-background-image('i-plus--primary-contrast');
   }
+
+  .accordion__button--secondary-contrast {
+    @include u-background-image('i-plus--secondary-contrast');
+  }  
 }
 
 .accordion__button {
@@ -63,6 +67,10 @@
 
 .accordion__button--primary-contrast {
   @include u-background-image('i-minus--primary-contrast');
+}
+
+.accordion__button--secondary-contrast {
+  @include u-background-image('i-minus--secondary-contrast');
 }
 
 .accordion--secondary {
